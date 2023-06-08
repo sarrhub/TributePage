@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color:rgb(203, 232, 235);
+    height: 100%;
+    border: 10px solid black;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.top_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.top_section, image{
+    margin-top: 50px;
+}
+
+img{
+    border-radius: 50%;
+   width: 350px; 
+   box-shadow: 3px 3px yellow, -1em 0 .4em black;
+}
+
+.name h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
+.name h4{
+    text-align: end;
+}
+
+.about{
+    margin-top: 30px;
+}
+.about p{
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.para1 h2{
+    color:red;
+    margin: 20px 0;
+    font-size:xx-large;
+}
+.para1 p{
+    margin: 13px 0;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.firstlist{
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.firstlist li{
+    margin: 10px;
+}
+
+.middle{
+    margin: 30px 0;
+}
+.middle h1{
+    color: red;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.middle li{
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.footer{
+    font-size: 20px;
+}
+.footer, pre {
+    margin-top: 40px;
+    text-align: left;
+}
+.footer, sub{
+    text-align: end;
+    margin-bottom: 30px;
+}
